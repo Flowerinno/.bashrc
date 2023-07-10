@@ -1,0 +1,130 @@
+{
+	"workbench.iconTheme": "material-icon-theme",
+	"launch": {
+		"configurations": [
+			{
+				"console": "integratedTerminal",
+				"internalConsoleOptions": "neverOpen",
+				"name": "js",
+				"program": "${workspaceFolder}/app.js",
+				"request": "launch",
+				"restart": true,
+				"runtimeExecutable": "nodemon",
+				"skipFiles": ["<node_internals>/**"],
+				"type": "node"
+			},
+			{
+				"args": ["task"],
+				"name": "Gulp task",
+				"program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+				"request": "launch",
+				"skipFiles": ["<node_internals>/**"],
+				"type": "node"
+			},
+			{
+				"name": "Launch Program",
+				"program": "${workspaceFolder}/bin/run",
+				"request": "launch",
+				"skipFiles": ["<node_internals>/**"],
+				"type": "node"
+			}
+		]
+	},
+	"grunt.autoDetect": "on",
+	"security.workspace.trust.untrustedFiles": "open",
+	"debug.javascript.autoAttachFilter": "always",
+	"explorer.confirmDelete": false,
+	"tabnine.experimentalAutoImports": true,
+	"path-intellisense.autoSlashAfterDirectory": true,
+	"path-intellisense.showHiddenFiles": true,
+	"editor.unusualLineTerminators": "off",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnType": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"workbench.startupEditor": "none",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDragAndDrop": false,
+	"sync.gist": "1317c5bfcdd7ea240d3cc855a5d90716",
+	"editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+	"editor.formatOnSave": true,
+	"eslint.alwaysShowStatus": true,
+	"prettier.endOfLine": "auto",
+	"git.enableSmartCommit": true,
+	"debug.javascript.defaultRuntimeExecutable": {
+		"pwa-node": "node"
+	},
+	"gulp.autoDetect": "on",
+	"jake.autoDetect": "on",
+	"prettier.useTabs": true,
+	"editor.wrappingIndent": "deepIndent",
+	"prettier.useEditorConfig": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"rapidapi.terminalLink.enabled": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"workbench.editorAssociations": {
+		"*.kml": "default"
+	},
+	"liveServer.settings.donotVerifyTags": true,
+	"editor.autoClosingBrackets": "always",
+	"files.associations": {
+		"*.js": "javascriptreact"
+	},
+	"editor.wordWrap": "on",
+	"background.enabled": true,
+	"workbench.colorCustomizations": {
+		"terminal.background": "#000000",
+		"terminal.foreground": "#E0E0E0",
+		"terminalCursor.background": "#E0E0E0",
+		"terminalCursor.foreground": "#E0E0E0",
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiBlue": "#6FB3D2",
+		"terminal.ansiBrightBlack": "#B0B0B0",
+		"terminal.ansiBrightBlue": "#6FB3D2",
+		"terminal.ansiBrightCyan": "#76C7B7",
+		"terminal.ansiBrightGreen": "#A1C659",
+		"terminal.ansiBrightMagenta": "#D381C3",
+		"terminal.ansiBrightRed": "#FB0120",
+		"terminal.ansiBrightWhite": "#FFFFFF",
+		"terminal.ansiBrightYellow": "#FDA331",
+		"terminal.ansiCyan": "#76C7B7",
+		"terminal.ansiGreen": "#A1C659",
+		"terminal.ansiMagenta": "#D381C3",
+		"terminal.ansiRed": "#FB0120",
+		"terminal.ansiWhite": "#E0E0E0",
+		"terminal.ansiYellow": "#FDA331"
+	},
+	"[javascriptreact]": {
+		"diffEditor.codeLens": false
+	},
+	"workbench.settings.enableNaturalLanguageSearch": false,
+	"css.lint.unknownAtRules": "ignore",
+	"editor.renderWhitespace": "all",
+	"editor.minimap.enabled": false,
+	"terminal.integrated.env.windows": {},
+	"files.autoSave": "afterDelay",
+	"terminal.integrated.env.linux": {},
+	"errorLens.excludeBySource": ["ts(7016)", "ts(2322)"],
+	"yaml.schemas": {
+		"file:///home/flowerinno/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"atlascode.bitbucket.enabled": true,
+	"editor.inlineSuggest.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"console-ninja.showWhatsNew": false,
+	"turboConsoleLog.addSemicolonInTheEnd": true,
+	"editor.screenReaderAnnounceInlineSuggestion": false,
+	"editor.suggest.preview": true,
+	"javascript.preferGoToSourceDefinition": true,
+	"typescript.preferGoToSourceDefinition": true,
+	"editor.gotoLocation.alternativeDeclarationCommand": "editor.action.goToImplementation",
+	"editor.gotoLocation.alternativeDefinitionCommand": "editor.action.goToImplementation",
+	"editor.gotoLocation.alternativeTypeDefinitionCommand": "editor.action.goToImplementation",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.gotoLocation.multipleTypeDefinitions": "goto",
+	"editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToImplementation",
+	"editor.gotoLocation.alternativeReferenceCommand": "editor.action.goToImplementation"
+}
