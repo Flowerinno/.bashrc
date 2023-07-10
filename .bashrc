@@ -123,7 +123,6 @@ fi
 alias 3000='sudo fuser -k 3000/tcp'
 
 #docker
-alias docker='sudo systemctl is-active docker'
 alias dockers='sudo systemctl start docker'
 alias dockerst='sudo systemctl stop docker'
 
@@ -146,7 +145,6 @@ alias copy='xclip -sel clip <'
 #react
 alias start='npm run start'
 alias build='npm run build'
-alias test='npm run test'
 
 #Next.js
 alias dev='npm run dev'
@@ -155,7 +153,7 @@ alias dev='npm run dev'
 #LINT / CODE / TREE
 alias lint='npm run lint'
 alias lintf='npm run lint:fix'
-alias lints='npm run stylelint:fix'
+alias lints="npx stylelint '**/*.module.scss' --fix"
 alias path='echo -e ${PATH//:/\\n}'
 alias tree='tree -I ".git|node_modules"'
 
@@ -185,6 +183,15 @@ alias start='npm run start'
 #node
 alias i='npm i'
 alias u='npm uninstall'
+alias ts-node='npx ts-node'
+
+
+#nest
+alias service='nest g service'
+alias module='nest g module'
+alias resource='nest g resource'
+alias resolver='nest g resolver'
+
 
 #edit ~/.bashrc
 alias eb='code ~/.bashrc'
@@ -201,3 +208,7 @@ eval $(ssh-agent)
 
 PATH=~/.console-ninja/.bin:$PATH
 . "$HOME/.cargo/env"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
